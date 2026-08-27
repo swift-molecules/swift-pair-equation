@@ -1,3 +1,8 @@
-# Pair Equation
+# swift-pair-equation
 
-`Pair Equation` — integration of [`swift-pair`](https://github.com/swift-molecules/swift-pair) with [`swift-equation`](https://github.com/swift-atoms/swift-equation): `Pair` conformance to `Equation.Protocol`.
+Cross-domain integration between Pair and Equation.
+
+This package owns `Pair`'s conditional retroactive conformance to
+`Equation.Protocol`. Two pairs are equal exactly when their corresponding first
+and second values are equal; both component types must themselves satisfy the
+Equation contract.
